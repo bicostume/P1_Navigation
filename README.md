@@ -19,6 +19,9 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, the agent must get an **average score of +13 over 100 consecutive episodes.**
 
+## Downloading environment
+For completeness the environment is included in the submission under the folders Banana_Linux_NoVis, containing an environment without a visual interface and used mainly during training and Banana_Linux in which results can be visually seen in a visual environment. Just clone this repository  into your local malchine and you will have everything you need to start the training or the testing (for sure make sure before that you have installed all dependencies needed by gym and the deep reinforcement learning repository).
+
 ## Installation instructions
 
 If training is desired, it suffices to run Navigation.ipynb (first cell). The last cell loads the pretrained model and uses it for testing in the simulation environment.
